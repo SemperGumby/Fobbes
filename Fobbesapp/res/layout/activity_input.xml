@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graphite"
+    android:gravity="top"
+    android:onClick="createSampleTest"
+    tools:context=".InputActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp" >
+
+        <LinearLayout
+            android:id="@+id/DBLister"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/DBList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="false"
+                android:text="Empty" />
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="dbDumpConfirm"
+                android:text="Create Backup to SD" />
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="dbImportConfirm"
+                android:text="Get Backup from SD" />
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="createSampleTest"
+                android:text="Create Sample Data" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PP_Ryans_Survey">Well Being,Stress|2|scale|0|10|-256|1|,Mood|2|scale|0|10|-256|1|,Sunlight|1|minutes|0|0|-256|4|,Water|1|cups|0|0|-256|4|,Exercise|1|minutes |0|0|-256|4|,Caffeine|1|servings|0|0|-256|4|,Reading|1|minutes|0|0|-256|4|,Vegetable|1|servings|0|0|-256|4|,Hugs|1|gotten|0|0|-256|4|,</string>
+    <string name="PP_Kevins_Survey">Sleep Effects,Stress|2|scale|0|10|-256|1|,Energy|2|scale|0|10|-256|1|,Productivity|2|scale|0|10|-256|1|,Sleep|1|hours|0|0|-256|4|,</string>
+    <string name="PP_Alexs_Survey">Alexs,money|1|made|0|0|-256|5|,money|1|lost|0|0|-256|5|,bear|1|attacks|0|0|-256|2|,</string>
+    <string name="PP_TimeSheet_Survey"> TimeSheet,Total Worked|1|Hours|0|0|-256|4|,Project 1|1|Hours|0|0|-256|4|,Project 2|1|Hours|0|0|-256|4|,Project 3|1|Hours|0|0|-256|4|,Project 4|1|hours|0|0|-65536|4|,</string>
+	<string name="PP_Workout_Survey">Workout,Pullups|1|reps|0|0|-65536|4|,Dips|1|reps|0|0|-65536|4|,Pushups|1|reps|0|0|-65536|4|,Situps|1|reps|0|0|-65536|4|,Miles|1|ran|0|0|-65536|4|,Water|1|cups|0|0|-65536|4|,</string>
+	<string name="PP_Car_Survey">Vehicle Mileage,Distance|1|Miles|0|0|-65536|1|,Distance|1|KMs|0|0|-65536|1|,Fillup|1|Miles|0|0|-65536|1|,Fillup|1|KMs|0|0|-65536|1|,</string>
+	<string name="PP_Finances_Survey">Quick Finances,Earned|1|Dollars|0|0|-65536|1|,Spent|1|Dollars|0|0|-65536|1|,PettyCash|3|increment|0|0|-65536|1|,</string>
+	<string name="PP_Growth_Survey">Growth,Height|3|inches|0|0|-65536|5|,Height|3|cm|0|0|-65536|5,</string>
+</resources>

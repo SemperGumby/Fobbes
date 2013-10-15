@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graphite"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="250sp "
+        android:layout_height="300sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:columnCount="2"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vtb"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/trends"
+            android:minHeight="30dp"
+            android:onClick="trendline"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/tsb"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/survey"
+            android:minHeight="30dp"
+            android:onClick="input"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/hb"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/help"
+            android:minHeight="30dp"
+            android:onClick="help"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/esb"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/edit"
+            android:minHeight="30dp"
+            android:onClick="entry"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/insightitle" />
+
+</RelativeLayout>
